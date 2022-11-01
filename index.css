@@ -1,5 +1,5 @@
 body {
-background-color:#EEEDE9;
+/*background-color:#EEEDE9;*/
 font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 margin:0;
 padding:0;
@@ -96,56 +96,44 @@ font-size:1.2rem;
 .section-1{
 width: 1200px;
 margin:0 auto;
-position: relative;
-border:1px solid black;
 }
 .section-1_img{
-position:absolute;
-top:0;
 left:5%;
 }
 /*section-1*/
 /*section-2*/
-.section-2{
-  position: relative;
-  height: 100%;
-}
-.section-2_swiper {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-  height: 900px;
-  width:1200px;
-}
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 /*section-2*/
+/*section-3*/
+.section-3{
+width: 100%;
+height: 230px;
+display: flex;
+}
+.section-3_box{
+width:1200px;
+margin:0 auto;
+display: flex;
+justify-content:center;
+align-items:center;
+gap:165px;
+}
+.section-3>.section-3_box>div{
+width: 30px;
+height:30px;
+border-radius:50%;
+background-color:#5A4A2A;
+}
+/*section-3*/
+/*section-4*/
+.section-4{
+width:1200px;
+margin: 0 auto;
+
+}
+.section-4_imgbox{
+position:flex;
+justify-content: center;
+}
+/*section-4*/
+/*section-5*/
+/*section-5*/
